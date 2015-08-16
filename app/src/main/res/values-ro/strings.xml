@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">YikYakClone</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="applicationId">36ApZQMRlDYu7hENTZf5UHfW5EQQo398TXBQwhqV</string>
+    <string name="clientId">CEKU3i4vq0GeSQ7VIHTWqkUDDDXvwtesglAe8IT6</string>
+    <string name="title_activity_yak">YakActivity</string>
+    <string name="title_activity_new_yak">NewYakActivity</string>
+    <string name="saveYak">Salvare</string>
+</resources>

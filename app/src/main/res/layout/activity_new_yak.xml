@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yikyakclone.plutonium239.com.yikyakclone.activities.NewYakActivity">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newYakEditText"
+        android:layout_alignParentTop="true"
+        android:hint="What's on your mind?"
+        android:background="@android:color/transparent"
+
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        />
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/saveYak"-->
+        <!--android:text="@string/saveYak"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--/>-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomComponent"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/border"
+
+        android:paddingTop="@dimen/handle_vertical_margin"
+        android:paddingBottom="@dimen/handle_vertical_margin"
+        android:paddingLeft="@dimen/handle_horizontal_margin"
+        android:paddingRight="@dimen/handle_horizontal_margin"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_account_circle_black_24dp"
+
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/handleEditText"
+            android:layout_weight="1"
+            android:hint="Add a handle..."
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/counter"
+            android:text="200"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

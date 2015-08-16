@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Home</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_flag">Flag</string>
+
+    <string name="applicationId"></string>
+    <string name="clientId"></string>
+    <string name="title_activity_yak">Yak </string>
+    <string name="title_activity_new_yak">New Yak</string>
+    <string name="saveYak">Save</string>
+    <string name="voteUp">Up</string>
+    <string name="voteDown">Down</string>
+    <string name="newYakButton">New</string>
+    <string name="action_send">Send</string>
+    <string name="action_delete">Delete</string>
+    <string name="title_activity_main_tabbed">MainTabbedActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

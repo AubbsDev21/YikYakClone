@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/voteYak"
+    android:gravity="center"
+    >
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/voteUp"
+        android:id="@+id/voteUpButton"
+        android:src="@drawable/ic_keyboard_arrow_up_black_24dp"
+        android:background="@null"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/voteCount"
+        android:text="0"
+        style="@style/BlueTextView"
+        android:textSize="16dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/voteDown"
+        android:id="@+id/voteDownButton"
+        android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+        android:background="@null"
+        />
+</LinearLayout>
